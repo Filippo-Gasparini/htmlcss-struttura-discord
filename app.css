@@ -3,6 +3,7 @@
 /* RESET*/
 
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +23,42 @@ a {
 
 img {
     max-width: 100%;
+
+    
+    .poppins-thin 
+    font-family: "Poppins",
+    sans-serif;
 }
-.poppins-thin {
-font-family: "Poppins", sans-serif;
- }
+
+
+
+/*LAYOUT-1*/
+
+.conteiner-color {
+    color: rgba(200, 255, 0, 0.632);
+    background-color:rgba(0, 136, 255, 0.499);
+    padding-bottom: 20px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.conteiner {
+    flex-direction: wrap;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    gap:15px;
+}
+
+.justify-content-between {
+    justify-content: space-around;
+}
+
