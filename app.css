@@ -38,6 +38,8 @@ img {
     color: rgba(200, 255, 0, 0.632);
     background-color:rgba(0, 136, 255, 0.499);
     padding-bottom: 20px;
+    
+    
 }
 
 .conteiner {
@@ -51,14 +53,30 @@ img {
 .conteiner {
     flex-direction: wrap;
     align-items: center;
+    border: 10px;
 }
 
 .flex {
     display: flex;
     gap:15px;
+    border: 2px solid
+    
 }
 
 .justify-content-between {
     justify-content: space-around;
+    
+    
 }
 
+.flex-conteiner {
+    line-height: 40px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(76, 227, 241);
+    border: 5px;
+}
+
+
+.debug .row{
+    border: 2px black;
+}
