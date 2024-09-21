@@ -80,3 +80,12 @@ img {
 .debug .row{
     border: 2px black;
 }
+
+.conteiner,
+.layout-2 {
+    color: rgb(10, 129, 233);
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.314);
+    
+}
