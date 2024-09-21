@@ -71,21 +71,40 @@ img {
 
 .flex-conteiner {
     line-height: 40px;
-    color: rgb(255, 0, 0);
+    color: rgb(8, 8, 8);
     background-color: rgb(76, 227, 241);
     border: 5px;
 }
 
 
 .debug .row{
-    border: 2px black;
+    border: 2px rgb(243, 9, 9);
 }
 
 .conteiner,
 .layout-2 {
-    color: rgb(10, 129, 233);
+    color: rgb(0, 0, 0);
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 255, 0.314);
-    
+    background-color: rgba(5, 5, 171, 0.314);
 }
+
+.layout-2 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+.layout-3 {
+    background: orange;
+}
+
+.flex-conteiner
+.layout-3 {
+    color: black;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
