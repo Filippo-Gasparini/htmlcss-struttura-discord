@@ -24,10 +24,9 @@ a {
 img {
     max-width: 100%;
 
-    
-    .poppins-thin 
-    font-family: "Poppins",
-    sans-serif;
+
+    .poppins-thin font-family: "Poppins",
+        sans-serif;
 }
 
 
@@ -36,33 +35,88 @@ img {
 
 .conteiner-color {
     color: rgba(200, 255, 0, 0.632);
-    background-color:rgba(0, 136, 255, 0.499);
+    background-color: rgba(0, 136, 255, 0.499);
     padding-bottom: 10px;
-    
-    
+
+
 }
 
 
 .row {
     padding: 1rem 0;
     height: 10rem;
-  }
-  
-  .items {
+}
+
+.items {
     display: flex;
     height: 100%;
     width: 75%;
     margin: 0 auto;
-    & .item {
-      margin: inherit;
+
+    .item {
+        margin: inherit;
     }
-  }
-  
-  .row-1 {
+}
+
+.row-1 {
     background-color: rgba(0, 0, 139, 0.992);
     height: 10rem;
+
     .item-1 {
-      width: 80%;
-      background-color: hotpink;
+        width: 80%;
+        background-color: hotpink;
     }
 
+    .row-2 {
+        background-color: white;
+        height: 12rem;
+
+        .item-1 {
+            flex: 1.5;
+            background-color: dodgerblue;
+        }
+
+        .item-2 {
+            flex: 1;
+            background-color: pink;
+        }
+
+        /*layout-3*/
+        .row-3 {
+            background-color: lightgray;
+            height: 12rem;
+
+            .item-2 {
+                flex: 1.5;
+                background-color: dodgerblue;
+            }
+
+            .item-1 {
+                flex: 1;
+                background-color: pink;
+            }
+
+            /*layout-3*/
+
+
+            .row-4 {
+                background-color: lightgray;
+                height: 24rem;
+
+                .item-1 {
+                    flex: 1;
+                    background-color: green;
+                }
+
+                /*layout-4*/
+
+
+                .row-4 {
+                    background-color: lightgray;
+                    height: 24rem;
+
+                    .item-1 {
+                        flex: 1;
+                        background-color: green;
+                    }
+                
