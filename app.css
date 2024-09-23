@@ -60,8 +60,8 @@ img {
 
 .row-1 {
     background-color: rgba(0, 0, 139, 0.992);
-    height: 10rem;
-
+    
+    height: 10rem;    }
     .item-1 {
         width: 80%;
         background-color: hotpink;
@@ -69,8 +69,8 @@ img {
 
     .row-2 {
         background-color: white;
-        height: 12rem;
-
+        
+        height: 12rem;     }
         .item-1 {
             flex: 1.5;
             background-color: dodgerblue;
@@ -84,8 +84,8 @@ img {
         /*layout-3*/
         .row-3 {
             background-color: lightgray;
-            height: 12rem;
-
+            
+            height: 12rem;    }
             .item-2 {
                 flex: 1.5;
                 background-color: dodgerblue;
@@ -101,9 +101,9 @@ img {
 
             .row-4 {
                 background-color: lightgray;
-                height: 24rem;
-
+                
                 .item-1 {
+                    height: 24rem;   }
                     flex: 1;
                     background-color: green;
                 }
@@ -113,10 +113,41 @@ img {
 
                 .row-4 {
                     background-color: lightgray;
-                    height: 24rem;
+                    
+                    height: 24rem; 
+                    
+     }
 
                     .item-1 {
+                        
                         flex: 1;
                         background-color: green;
                     }
+
+                    /*layout-5*/
                 
+                    .row-5 {
+                        padding: 0.5rem 0;
+                        background-color: black;
+                        height: 18rem;
+                        .items {
+                          gap: 1px;
+                        }
+                        .item {
+                          flex: 1;
+                          background-color: ;
+                        }
+                        .item-1 {
+                          flex: 1;
+                          background-color: salmon;
+                        }
+                        .item-2 {
+                          flex: 3;
+                          display: flex;
+                          background-color: lightgray;
+                          gap: 1px;
+                          * {
+                            background-color: lightseagreen;
+                          }
+                        }
+                      }
